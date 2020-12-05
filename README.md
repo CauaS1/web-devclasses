@@ -22,16 +22,6 @@ It's a project web from a project that I already did in React Native. Dev Classe
   <li>Logout</li>
 </ul>
 
-<h2>Screenshots</h2>
-<div class="img-container">
-  <img src=https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/initial-page.PNG /> <br>
-
-  <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/study.PNG" />
-  <br>
-
-  <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/give-class.PNG" />
-  <br>
-
-  <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/profile.PNG" />
-</div>
+<img src=https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/initial-page.PNG /> 
+ 
 
