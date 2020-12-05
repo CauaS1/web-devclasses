@@ -8,7 +8,7 @@
 
 <h2>About</h2>
 <p>
-It's a project web from a project that I already did in React Native. Dev Classes is a website where you can give classes to people and study everywhere, you just need to create an account and create a class or see the avaliables classes.
+It's a project web from a project that I already did in React Native. Dev Classes is a website where you can give classes to people and study everywhere you only need to create an account and create a class or see the available classes.
 </p>
 
 <h2>What can you do?</h2>
@@ -17,7 +17,7 @@ It's a project web from a project that I already did in React Native. Dev Classe
   <li>Create class</li>
   <li>Edit your class</li>
   <li>Delete your class</li>
-  <li>Edit your profile's informations.</li>
+  <li>Edit your profile's information.</li>
   <li>Logout</li>
 </ul>
 
