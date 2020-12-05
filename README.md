@@ -1,7 +1,7 @@
 <h1 style="text-align: center;">Web DevClasses</h1>
 
 <div class="img-container" style="display: flex; align-items: center; justify-content: center" >
-  <img src="/images/dev.svg" style="width: 150px; height: 150px;" />
+  <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/images/dev.svg" style="width: 150px; height: 150px;" />
 </div>
 
 <hr>
@@ -23,9 +23,9 @@ It's a project web from a project that I already did in React Native. Dev Classe
 
 <h2>Screenshots</h2>
 <div class="img-container" style="display: grid; grid-template-columns: 1fr 1fr;">
-  <img src="/images/itinial-page.png" />
-  <img src="/images/study.svg" />
-  <img src="/images/give-class.svg" />
-  <img src="/images/profile.svg" />
+  <img src=https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/initial-page.PNG />
+  <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/study.PNG" />
+  <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/give-class.PNG" />
+  <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/profile.PNG" />
 </div>
 
