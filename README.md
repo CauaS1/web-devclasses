@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">Web DevClasses</h1>
 
-<div class="img-container" style="display: flex; align-items: center; justify-content: center" >
+<div align="center">
   <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/images/dev.svg" width="150px" height="150px" />
 </div>
 
@@ -22,7 +22,7 @@ It's a project web from a project that I already did in React Native. Dev Classe
 </ul>
 
 <h2>Screenshots</h2>
-<div class="img-container" style="display: grid; grid-template-columns: 1fr 1fr;">
+<div class="img-container">
   <img src=https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/initial-page.PNG />
   <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/study.PNG" />
   <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/screenshots/give-class.PNG" />
