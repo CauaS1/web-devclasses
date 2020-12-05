@@ -1,0 +1,31 @@
+<%- include("../partials/header.ejs") %>
+<link rel="stylesheet" href="/styles/study.css">
+<link rel="stylesheet" href="/styles/profile.css">
+
+<body>
+  <div class="green-background">
+    <h1>Add informations to your profile</h1>
+  </div>
+
+  <div class="lesson-input-container">
+    <div class="form-container">
+      <form action="/create" method="POST">
+        <span>Name</span>
+        <input type="text" name="name" placeholder="Your name">
+
+        <span>Profile photo</span>
+        <input type="text" name="photo" placeholder="https://">
+
+        <span>About you</span>
+        <input type="text" name="about" placeholder="About you">
+
+        <span>Your country</span>
+        <input type="text" name="country" placeholder="Country">
+
+        <button type="submit">Create profile</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+<%- include("../partials/header.ejs") %>

@@ -1,0 +1,61 @@
+<%- include("./partials/header.ejs")%>
+<link rel="stylesheet" href="/styles/study.css">
+
+<body>
+  <%- include("./partials/aside.ejs")%>
+
+  <div class="green-background">
+    <h1>These are our <br> avaliable classes.</h1>
+    <img src="/images/study-header.svg" alt="Image">
+  </div>
+
+  <div class="main-content">
+    <div class="study-input-container">
+      <input type="text" placeholder="Search the subject">
+      <button>Search</button>
+    </div>
+
+    <div class="avaliable-lessons">
+      <% lesson.forEach(lessons => {%>
+      <div class="lesson">
+        <div class="top">
+          <div class="about">
+            <img src="<%= photo %>" alt="User img">
+            <div class="about-lesson">
+              <p> <%= name %> </p>
+              <p id="subject"><%= lessons.category %></p>
+            </div>
+          </div>
+
+          <div class="config">
+            <a href="/study/edit/<%= lessons.id %>">
+              <img src="/images/edit.svg" alt="Pen">
+            </a>
+
+            <form action="/study/delete" method="POST">
+              <input type="hidden" name="id" value="<%= lessons.id %>">
+              <button type="submit">
+                <img src="/images/delete.svg" alt="Trash">
+              </button>
+            </form>
+
+          </div>
+
+        </div>
+
+        <div class="middle">
+          <p> <%= lessons.about %> </p>
+        </div>
+
+        <div class="bottom">
+          <a href="#">Price/hour $<%= lessons.price %></a>
+        </div>
+      </div>
+
+      <% }) %>
+    </div>
+
+  </div>
+</body>
+
+<%- include("./partials/footer.ejs")%>

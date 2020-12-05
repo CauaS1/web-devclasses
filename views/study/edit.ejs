@@ -1,0 +1,32 @@
+<%- include("../partials/header.ejs") %>
+<link rel="stylesheet" href="/styles/study.css">
+
+<body>
+  <%- include("../partials/aside.ejs")%>
+
+
+  <div class="green-background">
+    <h1>Edit your<br> class.</h1>
+
+    <img src="/images/edit-header.svg" alt="Give class">
+  </div>
+
+  <div class="main-content">
+    <div class="giveclass-input-container">
+      <form action="/study/update" method="POST">
+
+        <input type="hidden" name="id" value="<%= lesson.id %>">
+        <textarea required name="about" placeholder="Write about your class"><%= lesson.about %></textarea>
+        <select name="category" id="" required>
+          <option value="Javascript">Javascript</option>
+          <option value="React.js">React.js</option>
+        </select>
+        <input required type="number" value="<%= lesson.price %>" name="price" placeholder="Price">
+
+        <button type="submit">Edit class</button>
+
+      </form>
+    </div>
+  </div>
+</body>
+<%- include("../partials/footer.ejs") %>

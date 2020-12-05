@@ -1,0 +1,29 @@
+<%- include("../partials/header.ejs") %>
+<link rel="stylesheet" href="/styles/study.css">
+<link rel="stylesheet" href="/styles/profile.css">
+
+<body>
+  <div class="green-background">
+    <h1>Edit your profile</h1>
+  </div>
+
+  <div class="lesson-input-container">
+    <div class="form-container">
+        <form action="/profile/edit" method="POST">
+        <span>Name</span>
+        <input type="text" value="<%= information.name %>" name="name" placeholder="Your name">
+
+        <span>Profile photo</span>
+        <input type="text" value="<%= information.photo %>" name="photo" placeholder="https://">
+
+        <span>About you</span>
+        <input type="text" value="<%= information.about %>" name="about" placeholder="About you">
+        
+        <input type="hidden" value="<%= information.id %>" name="id">
+        <button type="submit">Edit</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+<%- include("../partials/header.ejs") %>

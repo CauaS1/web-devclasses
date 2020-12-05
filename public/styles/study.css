@@ -1,0 +1,237 @@
+.green-background {
+  width: 100vw;
+  height: 30vh;
+  background-color: #06d6a0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.green-background .svg-container {
+  width: 100%;
+  height: 100%;
+}
+
+.green-background img {
+  width: 40%;
+  height: 100%;
+}
+
+.green-background h1 {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 2.9rem;
+}
+
+.main-content {
+  width: 100vw;
+  margin-top: 10rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.study-input-container, .lesson-input-container, .giveclass-input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  position: absolute;
+  top: 28vh;
+}
+
+.study-input-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.study-input-container input {
+  margin-bottom: 0 !important;
+}
+
+.study-input-container form, .giveclass-input-container form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/*main content*/
+
+.study-input-container input, .lesson-input-container input,
+.lesson-input-container select, 
+ .lesson-input-container textarea,
+ .giveclass-input-container input, .giveclass-input-container textarea, .giveclass-input-container select {
+  width: 65%;
+  height: 3.5rem;
+  padding-left: 1rem;
+  border: 1px solid #06d6a0;
+  border-radius: .5rem;
+  margin-bottom: 1.8rem;
+  font-family: "Rubik", sans-serif;
+
+  outline: none;
+}
+
+.lesson-input-container textarea, .giveclass-input-container textarea {
+  max-width: 65%;
+  min-width: 65%;
+  min-height: 18rem;
+  padding: 1rem;
+}
+
+.main-content button {
+  width: 25%;
+  height: 3.3rem;
+  background-color: #fff;
+  color: #06d6a0;
+  border-radius: .5rem;
+  cursor: pointer;
+  border: 1px solid #06d6a0;
+  outline: none;
+
+  font-family: "Rubik", sans-serif;
+  transition: .3s;
+}
+
+.main-content button:hover {
+  background-color: #06d6a0;
+  color: #fff;
+}
+
+/*AVALIABLE LESSONS*/
+.avaliable-lessons {
+  width: 100%;
+}
+
+.lesson {
+  width: 90%;
+  margin: auto;
+  border: 1px solid #06d6a0;
+  border-radius: .8rem;
+  padding: .8rem;
+  margin-bottom: 1.5rem;
+}
+
+/*top*/
+.lesson .top {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lesson .top .about {
+  display: flex;
+}
+
+.lesson .top .config {
+  width: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.config button {
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+
+  height: 1.7rem;
+
+
+}
+
+.lesson .top .config a img, .top .config button img {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 0;
+} /*icons*/
+
+.config button:hover, .config a:hover {
+  background: none;
+  opacity: .7;
+}
+
+.lesson .top img {
+  width: 3.7rem;
+  height: 3.7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.lesson .top .about-lesson {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 1.3rem;
+}
+
+.about-lesson p {
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+.about-lesson #subject {
+  color: #02c39a;
+  font-size: 1.45rem;
+}
+
+/*middle / bottom */
+.middle, .bottom {
+  width: 90%;
+  margin: 1.7rem auto;
+}
+
+.middle p, .bottom a {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+}
+
+/*bottom*/
+.bottom {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.bottom a {
+  color: #02c39a;
+  text-decoration: none;
+
+  transition: color .3s;
+}
+
+.bottom a:hover {
+  color: #06d6a0;
+}
+
+@media(min-width: 800px) {
+  .main-content {
+    width: 80vw;
+    margin: 10rem auto;
+  }
+
+  .study-input-container, .lesson-input-container {
+    width: 90%;
+  }
+}
+
+@media(min-width: 1000px) {
+  .study-input-container, .lesson-input-container {
+    width: 70%;
+  }
+}

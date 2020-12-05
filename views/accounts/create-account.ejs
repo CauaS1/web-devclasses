@@ -1,0 +1,41 @@
+<%- include("../partials/header.ejs") %>
+<link rel="stylesheet" href="/styles/index.css">
+<link rel="stylesheet" href="/styles/account.css">
+
+<body>
+  <div class="main-page-container">
+
+    <div class="geral">
+      <div class="form-container">
+        <p>Create your account</p>
+        <form action="/register" method="POST">
+          <div>
+            <span>NAME</span>
+            <span>PHOTO</span>
+          </div>
+          
+          <div>
+            <input required type="text" name="name" placeholder="Name">
+
+            <input required type="text" name="photo" placeholder="https://...">
+          </div>
+
+     
+          <span>ABOUT</span>
+          <textarea required name="about" placeholder="About you"></textarea>
+
+          <span>EMAIL</span>
+          <input required type="email" name="email" placeholder="email@gmail.com">
+
+          <span>PASSWORD</span>
+          <input required type="password" name="password" placeholder="**********">
+          <button type="submit">Create Account</button>
+        </form>
+      </div>
+      <img src="/images/create-acc.svg" alt="Main page image">
+    </div>
+    <a href="/login">Already have an account? Sing In</p>
+
+  </div>
+</body>
+<%- include("../partials/footer.ejs") %>

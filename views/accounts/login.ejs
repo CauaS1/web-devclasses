@@ -1,0 +1,21 @@
+<%- include("../partials/header.ejs") %>
+<link rel="stylesheet" href="/styles/index.css">  
+<link rel="stylesheet" href="/styles/account.css">
+
+<body>
+  <div class="main-page-container">
+    <div class="geral-login">
+      <div class="form-container">
+        <p>Login in your acount</p>
+        <form action="/authenticate" method="POST">
+          <input type="email" name="email"  placeholder="email@gmail.com">
+          <input type="password"  name="password" placeholder="**********">
+          <button type="submit">Login</button>
+        </form>
+      </div>
+      <img src="/images/password.svg" alt="Main page image">
+    </div>
+    <a href="/create-account">Don't have an account? Sing Up</p>
+  </div>
+</body>
+<%- include("../partials/footer.ejs") %>

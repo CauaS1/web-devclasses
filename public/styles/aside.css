@@ -1,0 +1,67 @@
+.aside-container {
+  width: 1.5rem;
+  height: 100vh;
+  background: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  position: fixed;
+  left: 0;
+
+  z-index: 5;
+
+  transition: .3s;
+
+}
+
+.aside {
+  width: 10rem;
+  height: 80vh;
+  padding: 2rem .5rem;
+  background-color: #02c39a;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.aside a {
+  width: 100%;
+  margin-bottom: 2.5rem;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside a img {
+  width: 2rem;
+}
+
+/*Disable /Enable content*/
+
+.open-aside-container {
+  width: 5vw;
+  transition: 0.3s;
+}
+
+.open-aside-container .aside a {
+  display: flex;
+}
+
+@media(min-width: 800px) {
+  .aside a img {
+    width: 3.5rem;
+  }
+
+  .open-aside-container {
+    width: 7rem; 
+  }
+}
+
