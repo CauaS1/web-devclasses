@@ -1,7 +1,7 @@
 <h1 style="text-align: center;">Web DevClasses</h1>
 
 <div class="img-container" style="display: flex; align-items: center; justify-content: center" >
-  <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/images/dev.svg" style="width: 150px; height: 150px;" />
+  <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/images/dev.svg" width="150px" height="150px" />
 </div>
 
 <hr>
