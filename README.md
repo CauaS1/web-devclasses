@@ -1,10 +1,8 @@
-<h1 style="text-align: center;">Web DevClasses</h1>
-
 <div align="center">
   <img src="https://github.com/CauaS1/web-devclasses/blob/master/public/images/dev.svg" width="150px" height="150px" />
 </div>
 
-<hr>
+<h1 style="text-align: center;">Web DevClasses</h1>
 
 <h2>About</h2>
 <p>
